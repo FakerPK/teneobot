@@ -1,3 +1,6 @@
+// Copyright (C) 2025 YourName
+// Licensed under the AGPL-3.0: https://www.gnu.org/licenses/agpl-3.0.html
+// This software is provided "as-is" without any warranties.
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
