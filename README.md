@@ -1,5 +1,5 @@
-# UPDATED: Teneo Network Automated Farming Bot For 100% Uptime
-### Automate your connection to the Teneo API with this script. Manage multiple accounts and ensure 24/7 uptime. Join my Discord Server for invite codes.
+#  Teneo Network Automated Farming Bot For 100% Uptime
+### Automate your connection to the Teneo API with this script. Manage multiple accounts and ensure 24/7 uptime. Referral Code: f35PB
 ![AGPL License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)  
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
 ![Node.js](https://img.shields.io/badge/Node.js-16%2B-green)
