@@ -1,7 +1,6 @@
 #  Teneo Network Automated Farming Bot For 100% Uptime
 ### Automate your connection to the Teneo API with this script. Manage multiple accounts and ensure 24/7 uptime. Referral Code: f35PB
 ![AGPL License](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)  
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
 ![Node.js](https://img.shields.io/badge/Node.js-16%2B-green)
 
 ## Features 🌟
@@ -25,27 +24,7 @@
 **Choose your language:**
 
 <details>
-<summary>Python 3.8+</summary>
-For Linux:
-  
-```bash
-# Install Python
-sudo apt update
-sudo apt install python3.11 python3-pip -y
-```
-For Windows:
-
-```bash
-# Download from Microsoft Store (easiest)
-winget install Python.Python.3.11
-
-# OR manual install
-https://www.python.org/downloads/windows/
-```
-</details>
-
-<details>
-<summary>Node.js 16+</summary>
+<summary>Node.js 18+</summary>
 For Linux:
   
 ```bash
@@ -69,7 +48,7 @@ https://nodejs.org/en/download/
 ## 🔑 Account Setup
 1. Go to the [Teneo Dashboard](https://dashboard.teneo.pro/dashboard), Use My Refferal code as it helps me out alot: *f35PB*
 2. Log in with your credentials
-3. Add your account details to the account.txt file in the following format:
+3. Add your account details to the `account.json` file in the following format:
 ```bash
 email,password
 ```
@@ -90,7 +69,7 @@ cd teneobot
 
 ### 2️⃣ Configuration Files
 
-**account.txt**
+**account.json**
 ```bash
 email1,password1
 email2,password2
@@ -98,7 +77,8 @@ email2,password2
 
 **proxy.txt** (100+ recommended)
 ```bash
-socks5://username:pass@ip:port
+http://username:pass@ip:port
+socks://username:pass@ip:port
 socks5://username:pass@ip:port
 ```
 
@@ -110,37 +90,38 @@ socks5://username:pass@ip:port
 ### 4️⃣ Run Bot
 
 <details>
-<summary>Python Version Of The Script</summary>
-
-```bash
-pip -r requirements.txt
-python3 main.py
-```
-</details>
-
-<details>
 <summary><strong>Javascript Version Script</strong></summary>
 
 ```java
 npm install
-node index.js
+npm start
 ```
 </details>
 
 ----
 ##  **💸Donations**
 If you would like to support me or the development of this projects, you can make a donation using the following addresses:
-- **Solana :**
-```bash
+
+  ### Crypto Wallet Addresses
+  - **Solana**:
+```javascript
 9SqcZjiUAz9SYBBLwuA9uJG4UzwqC5HNWV2cvXPk3Kro
 ```
-- **EVM :**
-```bash
+  - **EVM**: 
+```javascript
 0x2d550c8A47c60A43F8F4908C5d462184A40922Ef
 ```
-- **BTC :**
-```bash
+  - **BTC**:
+```json
 bc1qhx7waktcttam9q9nt0ftdguguwg5lzq5hnasmm
+```
+  - **SUI**
+```javascript
+0x1f928f99c3c17813239363a1c7ee958529786947e837c544e3aa2b88216c1be8
+```
+ **TRON**
+```json
+TVY97kfPGVBvsyrxtTiHrjXigAakpv9azX
 ```
 ----
 ## Support 🆘  
