@@ -1,0 +1,8 @@
+{
+  "youremail@gmail.com": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..........................."
+  },
+  "yourotheremail@gmail.com": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9............................"
+  }
+}
